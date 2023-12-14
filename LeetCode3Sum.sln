@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWords", "ReverseWord
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductExceptItself", "ProductExceptItself\ProductExceptItself.csproj", "{186A15B8-DC70-4533-902E-40BC09A8DD39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "ContainsDuplicate\ContainsDuplicate.csproj", "{B2616720-25AC-4FB5-A5F0-D8317E456255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.csproj", "{AC748B6C-8504-4BEF-A10C-9255CE383B73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{186A15B8-DC70-4533-902E-40BC09A8DD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{186A15B8-DC70-4533-902E-40BC09A8DD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{186A15B8-DC70-4533-902E-40BC09A8DD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2616720-25AC-4FB5-A5F0-D8317E456255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2616720-25AC-4FB5-A5F0-D8317E456255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2616720-25AC-4FB5-A5F0-D8317E456255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2616720-25AC-4FB5-A5F0-D8317E456255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC748B6C-8504-4BEF-A10C-9255CE383B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC748B6C-8504-4BEF-A10C-9255CE383B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC748B6C-8504-4BEF-A10C-9255CE383B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC748B6C-8504-4BEF-A10C-9255CE383B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
