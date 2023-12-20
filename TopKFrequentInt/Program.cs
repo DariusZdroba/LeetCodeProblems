@@ -13,22 +13,39 @@
 
 static int[] TopKFrequent(int[] nums, int k)
 {
-    int[] freqArr = new int[nums.Length*10];
-    int[] outputArr = new int[k];
+    Dictionary<int, int> frequencyDictionary = new Dictionary<int, int>();
+    
+    int[] outputArray = new int[k];
+    for(int i = 0; i < nums.Length; i++)
+    {
+        if (frequencyDictionary.ContainsKey(nums[i]))
+        {
+            frequencyDictionary[nums[i]]++;
+        }
+        else
+        {
+            frequencyDictionary.Add(nums[i], 1);
+        }
+    }
+    List<int>[] buckets = new List<int>[nums.Length+1];
+    foreach(var key  in frequencyDictionary.Keys)
+    {
+        int frequency = frequencyDictionary[key];
+        if (buckets[frequency] == null )
+        {
+            buckets[frequency] = new List<int>();
+        }
+        buckets[frequency].Add(key);
+    }
+    List<int> result = new List<int>();
+    for(int i=buckets.Length-1; i>=0;i--)
+    {
+        if (result.Count >= k) break;
+        if (buckets[i] != null)
+            result.AddRange(buckets[i]);
+    }
+    return result.ToArray();
 
-    for(int i=0; i<nums.Length; i++)
-    {
-         freqArr[nums[i]]++;
-        
-    }
-    Array.Sort(freqArr);
-    int cnt = 0;
-    for(int j = freqArr.Length-1; j >= freqArr.Length-k; j--)
-    {
-        outputArr[cnt] = freqArr[j];
-        cnt++;
-    }
-    return outputArr;
 }
 int[] nums = {1,1,1,2,2,3,4,5};
 // freq = {3,1,1,2,1}
