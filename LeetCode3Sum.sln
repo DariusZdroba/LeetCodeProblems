@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku", "Sudoku\Sudoku.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParantheses", "ValidParantheses\ValidParantheses.csproj", "{07DC0145-0361-45A0-90B6-D6AA52E2A825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinStack", "MinStack\MinStack.csproj", "{BC62F2CF-BA45-43D0-BB4E-388753DAB0DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinStack", "MinStack\MinStack.csproj", "{BC62F2CF-BA45-43D0-BB4E-388753DAB0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse Polish Notation", "Reverse Polish Notation\Reverse Polish Notation.csproj", "{67414113-9D0D-4956-A15A-DC9537D1925C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{BC62F2CF-BA45-43D0-BB4E-388753DAB0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC62F2CF-BA45-43D0-BB4E-388753DAB0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC62F2CF-BA45-43D0-BB4E-388753DAB0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67414113-9D0D-4956-A15A-DC9537D1925C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67414113-9D0D-4956-A15A-DC9537D1925C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67414113-9D0D-4956-A15A-DC9537D1925C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67414113-9D0D-4956-A15A-DC9537D1925C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
