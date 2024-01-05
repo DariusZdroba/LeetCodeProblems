@@ -39,11 +39,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse Polish Notation", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Daily Temperatures", "Daily Temperatures\Daily Temperatures.csproj", "{B2EF04F8-C47D-4D56-AA4F-14955F6BE39A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Consecutive Sequence", "Longest Consecutive Sequence\Longest Consecutive Sequence.csproj", "{8563A199-701B-4625-B73F-71FA329087A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Consecutive Sequence", "Longest Consecutive Sequence\Longest Consecutive Sequence.csproj", "{8563A199-701B-4625-B73F-71FA329087A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate Parantheses", "Generate Parantheses\Generate Parantheses.csproj", "{0975855A-576F-4CC5-B8C2-FB55FBCA4BD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate Parantheses", "Generate Parantheses\Generate Parantheses.csproj", "{0975855A-576F-4CC5-B8C2-FB55FBCA4BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Substring Without Repeating Characters", "Longest Substring Without Repeating Characters\Longest Substring Without Repeating Characters.csproj", "{EAE04FDA-5880-4594-89C1-4B3C4E5285AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest Substring Without Repeating Characters", "Longest Substring Without Repeating Characters\Longest Substring Without Repeating Characters.csproj", "{EAE04FDA-5880-4594-89C1-4B3C4E5285AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Repeating Character Replacement", "Longest Repeating Character Replacement\Longest Repeating Character Replacement.csproj", "{3D83C32A-EA24-439A-9BE8-ACB6374C7394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{EAE04FDA-5880-4594-89C1-4B3C4E5285AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAE04FDA-5880-4594-89C1-4B3C4E5285AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAE04FDA-5880-4594-89C1-4B3C4E5285AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D83C32A-EA24-439A-9BE8-ACB6374C7394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D83C32A-EA24-439A-9BE8-ACB6374C7394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D83C32A-EA24-439A-9BE8-ACB6374C7394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D83C32A-EA24-439A-9BE8-ACB6374C7394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
