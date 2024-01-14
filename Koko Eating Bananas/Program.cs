@@ -21,39 +21,47 @@
 //Input: piles = [30, 11, 23, 4, 20], h = 6
 //Output: 23
 
+long Sum(int[] piles, int div,int h,long sum)
+{
+    sum = 0;
+    for (int i = 0; (i < piles.Length) && sum <= h; i++)
+    {
+        if (piles[i] % div == 0)
+        {
+            sum += piles[i] / div;
+        }
+        else
+        {
+            sum += (piles[i] / div) + 1;
+        }
+    }
+    return sum;
+}
 int MinEatingSpeed(int[] piles, int h)
 {
     int max = piles.Max();
-    int div = 1;
+    int div = max / 2;
     long sum = h+1;
-    //TODO 
 
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //Try binary search solution, instead of setting div from 1 trough max of piles, go for a 
-    //divide and conquer solution, going to max/2, if larger, difference of max and max/2  / 2  and so on.
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    while (div <= max && sum > h)
+    while (div <= max-1)
     {
-        sum = 0;
-        for(int i=0; (i< piles.Length) && sum<=h ; i++) 
+        sum = Sum(piles, div, h, sum);
+        if(sum <= h)
         {
-            if (piles[i] % div == 0)
-            {
-                sum += piles[i] / div;
-            }
-            else
-            {
-                sum += (piles[i] / div) + 1;
-            }
+            max = div;
+            div = div / 2;
+            if (div == 0) div = 1;
+            
+        }    
+        else 
+        {
+            div = max - (max - div) / 2;
         }
-        div++;
+       
+        
     }
     return div - 1;
 
 }
-int[] piles = { 332484035, 524908576, 855865114, 632922376, 222257295, 690155293, 112677673, 679580077, 337406589, 290818316, 877337160, 901728858, 679284947, 688210097, 692137887, 718203285, 629455728, 941802184 };
-MinEatingSpeed(piles, 823855818);
+int[] piles = { 312884470 };
+MinEatingSpeed(piles, 968709470);
