@@ -51,9 +51,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Permutation in String", "Pe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{3E689409-8ABF-4726-AEA7-124B9C1C7B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search 2D Matrix", "Search 2D Matrix\Search 2D Matrix.csproj", "{DE67DC00-B544-4D23-8CC1-AA5705C8B85C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Search 2D Matrix", "Search 2D Matrix\Search 2D Matrix.csproj", "{DE67DC00-B544-4D23-8CC1-AA5705C8B85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koko Eating Bananas", "Koko Eating Bananas\Koko Eating Bananas.csproj", "{A0520DF5-D653-47F3-83B2-59150203CBF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koko Eating Bananas", "Koko Eating Bananas\Koko Eating Bananas.csproj", "{A0520DF5-D653-47F3-83B2-59150203CBF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Minimum in Rotated Sorted Array", "Find Minimum in Rotated Sorted Array\Find Minimum in Rotated Sorted Array.csproj", "{4B709AFA-F59B-4FAF-9F3D-0FA62E8239EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{A0520DF5-D653-47F3-83B2-59150203CBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0520DF5-D653-47F3-83B2-59150203CBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0520DF5-D653-47F3-83B2-59150203CBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B709AFA-F59B-4FAF-9F3D-0FA62E8239EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B709AFA-F59B-4FAF-9F3D-0FA62E8239EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B709AFA-F59B-4FAF-9F3D-0FA62E8239EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B709AFA-F59B-4FAF-9F3D-0FA62E8239EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
